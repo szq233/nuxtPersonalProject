@@ -3,7 +3,7 @@
     <div>
       <template v-for="(item, i) in navigation">
         <nuxt-link :key="i" :to="item.path">{{item.title}}</nuxt-link>
-        >
+        >>
       </template>
     </div>
     <nuxt />
